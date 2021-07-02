@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.testing {
-  background: #f2f2f2;
-  border: 2px solid #777;
+:root {
+  --primary: #1ecca6;
+  --leadFont: 1.2rem;
 }
