@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind JIT Tutorial</title>
+    <link rel="stylesheet" href="/build/styles.css">
+</head>
+<body>
+    <div class="p-8 text-center">
+        <h1 class="text-4xl font-bold text-blue-600">Tailwind JIT Tutorial</h1>
+        <h2 class="text-2xl font-semibold text-gray-500">(Just in Time)</h2>
+    </div>
+    
+    <div class="p-8 text-center">
+        <button class="p-2 text-white bg-blue-600 rounded">Click me</button>
+        <button class="p-2 text-white bg-green-500 rounded">Click me</button>
+    </div>
+
+    <div class="p-8">
+        <h3 class="first-letter:font-bold first-letter:text-green-500">Todos:</h3>
+        <ul class="my-4 list-disc marker:text-blue-600">
+            <li class="marker:text-green-500">Get out of bed</li>
+            <li class="selection:bg-pink-500">Play Mario Kart</li>
+            <li class="selection:bg-purple-500">Do some work</li>
+        </ul>
+        <p class="first-line:font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquam tempore molestiae aut expedita nesciunt aspernatur obcaecati tenetur eos molestias ipsa voluptatem, a neque in, dignissimos hic quis repellat eligendi?</p>
+        
+        <div class="p-8">
+            <button class="bg-[#F46225] text-[#FFF6CA] p-2 rounded">click me</button>
+            <p class="text-[24px] mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquam tempore molestiae aut expedita nesciunt aspernatur obcaecati tenetur eos molestias ipsa voluptatem, a neque in, dignissimos hic quis repellat eligendi?</p>
+        </div>
+        
+        <div class="p-8">
+            <button class="bg-[color:var(--primary)] text-white p-2 rounded">click me</button>
+            <p class="text-[length:var(--leadFont)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquam tempore molestiae aut expedita nesciunt aspernatur obcaecati tenetur eos molestias ipsa voluptatem, a neque in, dignissimos hic quis repellat eligendi?</p>
+        </div>        
+    </div>
+</body>
+</html>

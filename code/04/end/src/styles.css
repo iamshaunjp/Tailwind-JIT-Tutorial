@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.testing {
+    background: #F2F2F2;
+    border: 2px solid #777;
+}
+
+:root {
+    --primary: #1ECCAC;
+    --leadFont: 1.2rem;
+}
